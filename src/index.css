@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ameixa: #34163a;
+  --color-nevoa: #ede7f1;
+  --color-cereja: #b3203f;
+  --color-mel: #d8a24a;
+  --color-grafite: #2a2a33;
+
+  --font-display: "Gloock", serif;
+  --font-body: "Figtree", sans-serif;
+
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-nevoa);
+  color: var(--color-grafite);
+}
